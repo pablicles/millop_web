@@ -18,98 +18,119 @@
 	<title>Comercializadora Industrial Millop</title>
 </head>
 <body>
+	<header class="container-fluid text-center p-0">
+		<!-- Nav -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-blue-light">
+			<div class="container">
+				<!-- Brand -->
+				<a class="navbar-brand sombreado" href="index.html">
+					<img src="img/Logo_completo.png" alt="Logo Millop" width="100">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="Menu" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
 
-	<!-- Nav -->
-	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-orange">
-		<div class="container">
-			<!-- Brand -->
-			<a class="navbar-brand" href="index.html">
-				<img src="img/Logo_completo.png" alt="Logo Millop" width="100">
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="Menu" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			</button>
-
-			<!-- Menu -->
-			<div class="collapse navbar-collapse float-right" id="menu">
-			    <ul class="navbar-nav ml-auto">
-			      <li class="nav-item">
-			        <a class="nav-link active" href="#"><i class="fas fa-home"></i> Inicio</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#"><i class="fas fa-box"></i> Empaques</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#"><i class="fas fa-print"></i> Impresión</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#"><i class="fas fa-store"></i> Tienda</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#"><i class="fas fa-users"></i> Nosotros</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contacto</a>
-			      </li>
-			    </ul>
+				<!-- Menu -->
+				<div class="collapse navbar-collapse float-right" id="menu">
+				    <ul class="navbar-nav ml-auto">
+				      <li class="nav-item">
+				        <a class="nav-link active scroll" href="#banner_principal"><i class="fas fa-home"></i> Inicio</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link active scroll" href="#empaques"><i class="fas fa-box"></i> Empaques</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link active scroll" href="#impresion"><i class="fas fa-print"></i> Impresión</a>
+				      </li>
+<!-- 				      <li class="nav-item">
+				        <a class="nav-link active" href="" target="_blank"><i class="fas fa-store"></i> Tienda</a>
+				      </li> -->
+				      <li class="nav-item">
+				        <a class="nav-link active scroll" href="#nosotros"><i class="fas fa-users"></i> Nosotros</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link active scroll" href="#contacto"><i class="fas fa-envelope"></i> Contacto</a>
+				      </li>
+				    </ul>
+				    <a href="https://listado.mercadolibre.com.mx/_CustId_603416299" class="btn text-white bg-orange" target="_blank"><i class="fas fa-store"></i> Tienda</a>
+				</div>
 			</div>
-		</div>
-	</nav>
-	<!-- ./Nav -->
+		</nav>
+		<!-- ./Nav -->
+	</header>
+
 
 	<main class="container-fluid text-center bg-gray">
 
 	<!-- Entrada -->
-		<section class="row" id="banner_principal">
-			<article class="col p-0">
-				<div class="text-center wow fadeIn justify-content-center" data-wow-duration="2s" id="contenedor_banner">
-					<img src="img/Logo_completo.png" alt="Logo Millop" class="img-fluid">
-					<h1 class="">Empaques e impresión</h1>
+		<section class="row parallax" id="banner_principal">
+			<article class="col py-5 blur" id="contenedor_banner">
+				<div class="text-center wow fadeIn justify-content-center" data-wow-duration="2s">
+					<img src="img/Logo_completo.png" alt="Logo Millop" class="img-fluid sombreado">
+					<h1 class="text-white sombreado">Empaques e impresión</h1>
 					<hr>
-					<a class="btn btn-lg text-white bg-blue">Contáctanos</a>
+					<a href="#contacto" class="btn btn-lg text-white bg-blue-light mr-2">Contáctanos</a>
 				</div>
 			</article>
 		</section>
 	<!-- ./Entrada -->
 
 	<!-- Llamada a la acción -->
-	<div class="row">
-		<div class="col bg-white">
-			<p class="h4 p-5">Llamada a la acción</p>
+	<section class="row bg-orange text-white p-5 d-flex justify-content-center">
+		<div class="col-12 mb-2">
+			<h3>Servicios</h3>
 		</div>
-	</div>
+		<article class="col-12 col-md-6 col-lg-3 mb-2">
+			<i class="fas fa-pen-alt display-4 mb-1"></i>
+			<h4>Diseño</h4>
+			<p>Diseñamos empaques a la medida</p>
+		</article>
+		<article class="col-12 col-md-6 col-lg-3 mb-2">
+			<i class="fas fa-tools display-4 mb-1"></i>
+			<h4>Fabricación</h4>
+			<p>Fabricamos cualquier tipo de empaque</p>
+		</article>
+		<article class="col-12 col-md-6 col-lg-3 mb-2">
+			<i class="fas fa-eye display-4 mb-1"></i>
+			<h4>Nombre del servicio</h4>
+			<p>Descripción detallada del servicio</p>
+		</article>
+	</section>
 	<!-- ./Llamada a la acción -->	
 		
 	<!-- Empaques -->
-		<h3 class="py-3"><i class="fas fa-box"></i> Empaques</h3>
-		<section class="row d-flex justify-content-center">
+		<a name="empaques"></a>
+		<section class="row d-flex justify-content-center parallax pb-5" id="empaques">
+			<div class="col-12 sombreado text-white mb-5">
+				<h3 class="py-3"><i class="fas fa-box"></i> Empaques</h3>
+			</div>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
-				<div class="card mx-2 wow fadeIn" data-wow-duration="4s" data-wow-delay="">
+				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
 					<img src="img/Logo.png" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
-						<a href="#" class="btn text-white bg-blue"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
+						<a href="#" class="btn text-white bg-blue-light"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
 					</div>
 				</div>
 			</article>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
-				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
 					<img src="img/Logo.png" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
-						<a href="#" class="btn text-white bg-blue"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
+						<a href="#" class="btn text-white bg-blue-light"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
 					</div>
 				</div>
 			</article>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
-				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">
+				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
 					<img src="img/Logo.png" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
-						<a href="#" class="btn text-white bg-blue"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
+						<a href="#" class="btn text-white bg-blue-light"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
 					</div>
 				</div>
 			</article>
@@ -117,55 +138,129 @@
 	<!-- ./Empaques -->
 
 	<!-- Llamada a la acción -->
-	<div class="row my-5">
-		<div class="col bg-white">
-			<p class="h4 p-5">Llamada a la acción</p>
+	<div class="row p-5 bg-success text-white">
+		<div class="col">
+			<h3><i class="fas fa-recycle"></i> Comprometidos con el medio ambiente</h3>
+			<p>Los empaques de cartón son completamente biodegradables, ayudanos a cuidar el medio ambiente</p>
 		</div>
 	</div>
 	<!-- ./Llamada a la acción -->	
 
-	<!-- Empaques -->
-		<h3 class="py-3"><i class="fas fa-print"></i> Impresión</h3>
-		<section class="row d-flex justify-content-center">
+	<!-- Imprenta -->
+		<a name="impresion"></a>
+		<section class="row d-flex justify-content-center parallax pb-5" id="impresion">
+		<div class="col-12 sombreado text-white mb-5">
+			<h3 class="py-3"><i class="fas fa-print"></i> Impresión</h3>
+		</div>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
-				<div class="card mx-2 wow fadeIn" data-wow-duration="4s" data-wow-delay="">
+				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
 					<img src="img/Logo.png" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
-						<a href="#" class="btn text-white bg-blue"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
+						<a href="#" class="btn text-white bg-blue-light"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
 					</div>
 				</div>
 			</article>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
-				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
 					<img src="img/Logo.png" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
-						<a href="#" class="btn text-white bg-blue"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
+						<a href="#" class="btn text-white bg-blue-light"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
 					</div>
 				</div>
 			</article>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
-				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">
+				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
 					<img src="img/Logo.png" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
-						<a href="#" class="btn text-white bg-blue"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
+						<a href="#" class="btn text-white bg-blue-light"><i class="fas fa-file-pdf"></i> Descargar catálogo</a>
 					</div>
 				</div>
 			</article>
 		</section>
-	<!-- ./Empaques -->
+	<!-- ./Imprenta -->
+
+	<!-- Sobre nosotros -->
+	<div class="row bg-orange text-white p-5" id="nosotros">
+		<div class="col-12">
+			<h3><i class="fas fa-users"></i> Nosotros</h3>
+			<p class="h4">Somos una empresa 100% mexicana, comprometida con la satisfacción de nuestros clientes.</p>
+		</div>
+		<hr>
+		<div class="col-12 col-md-6">
+			<p class="lead">Misión</p>
+			<p>Fabricar productos de empaque y embalaje en general de calidad en tiempo y forma, cumpliendo con las especificaciones, requisitos y expectativas de nuestros clientes, consolidándonos en el mercado como referente de calidad y servicio.</p>
+		</div>
+		<div class="col-12 col-md-6">
+			<p class="lead">Visión</p>
+			<p>Posicionarnos y consolidarnos en el mercado nacional de empaques y embalajes en general como la mejor opción para nuestros clientes en calidad, precio y servicio.</p>
+		</div>
+	</div>
+	<!-- ./Llamada a la acción -->	
+
+	<!-- Contacto -->
+	<section class="row parallax py-5 d-flex justify-content-center" id="contacto">
+		<div class="col-12 mb-2">
+			<h3 class="text-white sombreado"><i class="fas fa-envelope"></i> Conctacto</h3>
+		</div>
+		<article class="col-12 col-md-8 col-lg-4 text-left">
+			<div class="card">
+				<div class="card-body">
+					<form action="">
+						<div class="form-group">
+							<label>Nombre *</label>
+							<input type="text" name="nombre" class="form-control" required="" placeholder="(Obligaorio)">
+						</div>
+						<div class="form-group">
+							<label>Teléfono *</label>
+							<input type="number" name="telefono" class="form-control" required="" placeholder="10 dígitos (Obligaorio)">
+						</div>
+						<div class="form-group">
+							<label>Correo</label>
+							<input type="text" name="nombre" class="form-control" required="" placeholder="example@outlook.com (Opcional)">
+						</div>
+						<div class="form-group">
+							<label>Mensaje *</label>
+							<textarea class="form-control" name="mensaje" required="" placeholder="(Obligaorio)"></textarea>
+						</div>
+						<button type="submit" class="btn bg-blue-light text-white float-right">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</article>
+		<div class="col-12 mt-5">
+			<div class="blur">
+				<a href="https://goo.gl/maps/iiNNNHxAYZXEbjSt9" class="text-white sombreado lead">Av 9 Pte 706, Centro, 72000 Puebla, Pue.</a><br>
+				<a href="tel:2222469243" class="text-white sombreado lead">222 246 9243</a><br>
+				<a href="mailto:sistemasti@millop.com" class="text-white sombreado">sistemasti@millop.com</a>
+			</div>
+		</div>
+		<article class="col-12 mt-5">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.444217395901!2d-98.20772868562369!3d19.04419705792152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0db9d080db9%3A0x1cc4c56c61a16d15!2sComercializadora%20Industrial%20Millop%20S.A.%20de%20C.V.!5e0!3m2!1ses!2smx!4v1603226786198!5m2!1ses!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="mapa"></iframe>
+		</article>
+	</section>
 		
 	</main>
-	<footer class="bg-white">
-		<p class="text-center p-5">
-			Millop 2020. 
-			<!-- Desarrollado por <a href="mailto:pablicles@hotmail.com">Pablo Miranda</a> -->
-		</p>
+	<footer class="bg-blue-light p-5 m-0 text-white row">
+		<div class="col-12 col-md-6">
+			<p class="text-center">
+				Millop 2020. <br>
+				<!-- Desarrollado por <a href="mailto:pablicles@hotmail.com">Pablo Miranda</a> -->
+				<a href="https://goo.gl/maps/iiNNNHxAYZXEbjSt9" class="text-white">Av 9 Pte 706, Centro, 72000 Puebla, Pue.</a><br>
+				<a href="tel:2222469243" class="text-white">222 246 9243</a><br>
+				<a href="mailto:sistemasti@millop.com" class="text-white">sistemasti@millop.com</a>
+			</p>
+		</div>
+		<div class="col-12 col-md-6 text-center">
+			<p class="lead">Síguenos en redes sociales</p>
+			<a href="https://www.facebook.com/CIMillop" class="mr-2"><i class="fab fa-facebook-square text-white h3"></i></a>
+			<a href="https://www.facebook.com/CIMillop" class="mr-2"><i class="fab fa-instagram text-white h3"></i></a>
+		</div>
 	</footer>
 
 	
@@ -180,5 +275,8 @@
     <script>
         new WOW().init();
     </script>
+
+    <!-- Scroll suave -->
+    <script type="text/javascript" src="js/scroll.js"></script>
 </body>
 </html>

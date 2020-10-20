@@ -3,9 +3,23 @@
 }
 
 .bg-orange{
-	background-color: #E18045;
-	/*background-color: #6076E3;*/
-	/*background-color: #C08F4F;*/
+	background-color: #f05938;
+}
+
+.bg-blue-dark{
+	background-color: #3c487c;
+}
+
+.bg-blue-light{
+	background-color: #0194d6;
+}
+
+.bg-brown-dark{
+	background-color: #552d2e;
+}
+
+.bg-brown-light{
+	background-color: #b07c53;
 }
 
 .bg-blue{
@@ -16,15 +30,9 @@
 	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
 }
 
-#banner_principal{
-	background-image: url(../img/carton_boxes_wallpaper_min.jpg);
-
-	/*Centrar hijo*/
-	display: flex;
-	align-items: center;
-
+.parallax{
 	/* Set a specific height */
-  	height: 720px;
+  	height: 100%;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -33,7 +41,41 @@
 	background-size: cover;
 }
 
-#contenedor_banner{
+.encabezado{
 	/*backdrop-filter: blur(5px);*/
+	backdrop-filter: brightness(50%);
 }
 
+.blur{
+	backdrop-filter: blur(5px);
+}
+
+#banner_principal{
+	background-image: url(../img/warehouse_min.jpg);
+
+	height: 720px;
+	/*Centrar hijo*/
+}
+
+#contenedor_banner{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#empaques{
+	background-image: url(../img/packaging_boxes_min.jpg);
+}
+
+#impresion{
+	background-image: url(../img/print_min.jpg);	
+}
+
+#contacto{
+	background-image: url(../img/contact_smartphone_min.jpg);
+}
+
+#mapa{
+	max-width: 600px;
+}
