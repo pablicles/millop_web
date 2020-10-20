@@ -1,0 +1,39 @@
+.bg-gray{
+	background-color: #F5F5F5;
+}
+
+.bg-orange{
+	background-color: #E18045;
+	/*background-color: #6076E3;*/
+	/*background-color: #C08F4F;*/
+}
+
+.bg-blue{
+	background-color: #2B3FB5;
+}
+
+.sombreado{
+	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+#banner_principal{
+	background-image: url(../img/carton_boxes_wallpaper_min.jpg);
+
+	/*Centrar hijo*/
+	display: flex;
+	align-items: center;
+
+	/* Set a specific height */
+  	height: 720px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contenedor_banner{
+	/*backdrop-filter: blur(5px);*/
+}
+
