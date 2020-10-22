@@ -18,13 +18,44 @@
 	<title>Comercializadora Industrial Millop</title>
 </head>
 <body>
+	<!-- Load Facebook SDK for JavaScript -->
+      <!-- <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script> -->
+	<!-- ./Load Facebook SDK for JavaScript -->
+
+
+    <!-- Your Chat Plugin code -->
+      <!-- <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="120676105268564"
+  		theme_color="#0194d6"
+  		logged_in_greeting="¡Hola! ¿Cómo podemos ayudarte?"
+  		logged_out_greeting="¡Hola! ¿Cómo podemos ayudarte?"
+  		greeting_dialog_display="hide">
+      </div> -->
+    <!-- ./Your Chat Plugin code -->
+
 	<header class="container-fluid text-center p-0">
 		<!-- Nav -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-blue-light">
-			<div class="container">
+			<div class="container-fluid">
 				<!-- Brand -->
-				<a class="navbar-brand sombreado" href="index.html">
-					<img src="img/Logo_completo.png" alt="Logo Millop" width="100">
+				<a class="navbar-brand" href="index.html">
+					<img src="img/Logo_completo.webp" alt="Logo Millop" width="100" id="logo">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="Menu" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
@@ -66,7 +97,7 @@
 		<section class="row parallax" id="banner_principal">
 			<article class="col py-5 blur" id="contenedor_banner">
 				<div class="text-center wow fadeIn justify-content-center" data-wow-duration="2s">
-					<img src="img/Logo_completo.png" alt="Logo Millop" class="img-fluid sombreado">
+					<img src="img/Logo_completo.webp" alt="Logo Millop" class="img-fluid sombreado">
 					<h1 class="text-white sombreado">Empaques e impresión</h1>
 					<hr>
 					<a href="#contacto" class="btn btn-lg text-white bg-blue-light mr-2">Contáctanos</a>
@@ -106,7 +137,7 @@
 			</div>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
 				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
-					<img src="img/Logo.png" alt="" class="" width="300">
+					<img src="img/Logo.webp" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
@@ -116,7 +147,7 @@
 			</article>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
 				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
-					<img src="img/Logo.png" alt="" class="" width="300">
+					<img src="img/Logo.webp" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
@@ -126,7 +157,7 @@
 			</article>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
 				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
-					<img src="img/Logo.png" alt="" class="" width="300">
+					<img src="img/Logo.webp" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
@@ -138,10 +169,10 @@
 	<!-- ./Empaques -->
 
 	<!-- Llamada a la acción -->
-	<div class="row p-5 bg-success text-white">
+	<div class="row p-5 bg-brown-light text-white">
 		<div class="col">
 			<h3><i class="fas fa-recycle"></i> Comprometidos con el medio ambiente</h3>
-			<p>Los empaques de cartón son completamente biodegradables, ayudanos a cuidar el medio ambiente</p>
+			<p>Los empaques de cartón son completamente biodegradables, ayúdanos a cuidar el medio ambiente</p>
 		</div>
 	</div>
 	<!-- ./Llamada a la acción -->	
@@ -154,7 +185,7 @@
 		</div>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
 				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
-					<img src="img/Logo.png" alt="" class="" width="300">
+					<img src="img/Logo.webp" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
@@ -164,7 +195,7 @@
 			</article>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
 				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
-					<img src="img/Logo.png" alt="" class="" width="300">
+					<img src="img/Logo.webp" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
@@ -174,7 +205,7 @@
 			</article>
 			<article class="col-12 col-md-6 col-lg-3 mb-2">
 				<div class="card mx-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="">
-					<img src="img/Logo.png" alt="" class="" width="300">
+					<img src="img/Logo.webp" alt="" class="" width="300">
 					<div class="card-body">
 						<h5 class="card-title">Nombre de la categoría</h5>
 						<p>Descripción de la categoría</p>
@@ -262,6 +293,7 @@
 			<a href="https://www.facebook.com/CIMillop" class="mr-2"><i class="fab fa-instagram text-white h3"></i></a>
 		</div>
 	</footer>
+
 
 	
 	<!-- Bootstrap -->
