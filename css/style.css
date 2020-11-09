@@ -60,7 +60,7 @@ body{
 }
 
 #banner_principal{
-	background-image: url(../img/gift_box.webp);
+	background-image: url(../img/cajas-de-carton-Puebla-principal.webp);
 
 	height: 720px;
 	/*Centrar hijo*/
@@ -74,11 +74,11 @@ body{
 }
 
 #empaques{
-	background-image: url(../img/packaging.webp);
+	background-image: url(../img/cajas-de-carton-Puebla-seccion.webp);
 }
 
 #impresion{
-	background-image: url(../img/print_min.webp);	
+	background-image: url(../img/disenos-de-carton-fondo.webp);	
 }
 
 #contacto{
