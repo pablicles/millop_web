@@ -1,6 +1,6 @@
 body{
 	font-family: 'whitrabt';
-	src: url('../font/whitrabt.ttf');
+	src: url('https://millopempaques.com/font/whitrabt.ttf');
 }
 
 .bg-gray{
@@ -60,7 +60,7 @@ body{
 }
 
 #banner_principal{
-	background-image: url(../img/cajas-de-carton-Puebla-principal.webp);
+	background-image: url(https://millopempaques.com/img/cajas-de-carton-Puebla-principal.webp);
 
 	height: 720px;
 	/*Centrar hijo*/
@@ -74,15 +74,15 @@ body{
 }
 
 #empaques{
-	background-image: url(../img/cajas-de-carton-Puebla-seccion.webp);
+	background-image: url(https://millopempaques.com/img/cajas-de-carton-Puebla-seccion.webp);
 }
 
 #impresion{
-	background-image: url(../img/disenos-de-carton-fondo.webp);	
+	background-image: url(https://millopempaques.com/img/disenos-de-carton-fondo.webp);	
 }
 
 #contacto{
-	background-image: url(../img/contact_smartphone_min.webp);
+	background-image: url(https://millopempaques.com/img/contact_smartphone_min.webp);
 }
 
 #mapa{

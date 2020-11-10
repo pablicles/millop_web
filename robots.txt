@@ -1,0 +1,11 @@
+# Grupo 1
+User-agent: Googlebot
+Disallow: /form.php
+Disallow: /index_alt.html
+Disallow: /starter.html
+
+# Grupo 2
+User-agent: *
+Allow: /
+
+Sitemap: https://millopempaques.com/sitemap.xml
